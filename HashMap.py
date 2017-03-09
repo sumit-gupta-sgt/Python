@@ -45,7 +45,7 @@ class HashMap:
 				return True
 		return False
 			
-	def print(self):
+	def printelement(self):
 		print('---PHONEBOOK----')
 		for item in self.map:
 			if item is not None:
@@ -60,8 +60,8 @@ h.add('Aditya', '852-6551')
 h.add('Alicia', '632-4123')
 h.add('Mike', '567-2188')
 h.add('Aditya', '777-8888')
-h.print()		
+h.printelement()		
 h.delete('Bob')
-h.print()
+h.printelement()
 print('Ming: ' + h.get('Ming'))
 		
